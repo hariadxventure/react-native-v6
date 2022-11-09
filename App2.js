@@ -1,8 +1,6 @@
 //================//
-// stack navigator
+// Native Stack Savigator
 //================//
-import { NavigationContainer } from "@react-navigation/native";
-import { createStackNavigator } from "@react-navigation/stack";
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import About from "./screens/About";
@@ -11,8 +9,10 @@ import Contact from "./screens/Contact";
 import Home from "./screens/Home";
 
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { NavigationContainer } from "@react-navigation/native";
 
-const Stack = createStackNavigator();
+const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
