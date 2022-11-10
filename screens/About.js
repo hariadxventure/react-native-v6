@@ -24,11 +24,11 @@ export default About
 
 const styles = StyleSheet.create({
     screen:{
-        display: 'flex',
-        justifyContent: "center",
-        alignItems: 'center',
-        backgroundColor: 'gray',
-        height: '50%'
+        // display: 'flex',
+        // justifyContent: "center",
+        // alignItems: 'center',
+        // backgroundColor: 'gray',
+        // height: '50%'
     }
 })
 

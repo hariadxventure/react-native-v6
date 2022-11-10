@@ -8,21 +8,19 @@ const Home = (props) => {
       <Text style={{color:'white', fontSize:30}}>Home Screen</Text>
           <Link to={{screen: 'About'}} style={{fontSize:20, backgroundColor: "yellow", padding:10, borderRadius:15, margin:10}} >Go to About</Link>
           <Link to={{screen: 'Blog'}} style={{fontSize:20, backgroundColor: "yellow", padding:10, borderRadius:15, margin:10}} >Go to Blog</Link>
-          <Link to={{screen: 'Contact'}} style={{fontSize:20, backgroundColor: "yellow", padding:10, borderRadius:15, margin:10}} >Go to Contact</Link>
-    
-      <Button title='Blog' onPress={() => props.navigation.push('About')}></Button>
+          <Link to={{screen: 'Contact'}} style={{fontSize:20, backgroundColor: "yellow", padding:10, borderRadius:15, margin:10}} >Go to Contact</Link>    
     </View>
   )
 }
 
 const styles = StyleSheet.create({
   screen: {
-    display: 'flex',
-    paddingTop: 10,
-    justifyContent: "flex-start",
-    alignItems: 'center',
-    backgroundColor: 'green',
-    height: '100%'
+    // display: 'flex',
+    // paddingTop: 10,
+    // justifyContent: "flex-start",
+    // alignItems: 'center',
+    // backgroundColor: 'green',
+    // height: '100%'
   }
 })
 
